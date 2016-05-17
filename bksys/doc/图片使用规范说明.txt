@@ -1,0 +1,10 @@
+1、背景图片约束
+	图片雪碧处理
+	雪碧后图片保留PSD
+	雪碧图片命名例如：cyIcons\cyIcons1\cyIcons2
+
+2、开发中的占位图片
+	存储路径	img/
+	命名例如	cyImg\cyImg1\cyImg2
+	在线使用	https://unsplash.it/
+

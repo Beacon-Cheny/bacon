@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* common */
+.w_common .page_list{}
+
+/* partList.html */
+.w_partlist .container{}
+
+/* partAdd.html */
+.w_partadd .container{}

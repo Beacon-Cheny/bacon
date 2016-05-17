@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/cy.css" rel="stylesheet">
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/tree.js"></script>
+	</head>
+
+	<body>
+		<div class="c_common">
+			<div class="container-fluid tree_box">
+				<h2 id="h2" class="row">选中内容</h2>
+				<!-- <form> -->
+				<div class="row">
+					<div class="form-group pull-left tree_box_serch">
+						<label for="input-search" class="sr-only">Search Tree:</label>
+						<input type="input" class="form-control" id="input-search" placeholder="Type to search..." value="">
+					</div>
+					<div class="pull-right tree_box_sbt"><button type="button" class="btn btn-primary" id="btn-search">搜索</button></div>
+					<div class="pull-right tree_box_sbt"><button type="button" class="btn btn-default" id="btn-clear-search">清除</button></div>
+					<!--<div class="pull-right tree_box_sbt"><button type="button" class="btn btn-success" id="btn-search">搜索</button></div>-->
+				</div>
+				<!-- </form> -->
+				<div class="row">
+					<div id="treeview-searchable" class=""></div>
+				</div>
+				<div class="form-group clearfix">
+					<button type="button" class="btn btn-success pull-left tree_box_sbt" id="btn-expand-all">全部展开</button>
+					<button type="button" class="btn btn-success pull-left tree_box_sbt" id="btn-collapse-all">全部收起</button>
+					<button type="button" class="btn btn-success pull-left tree_box_sbt" id="btn-expand-level">展开定级</button>
+					<!--<button type="button" class="btn btn-success pull-left tree_box_sbt" id="btn-collapse-level">收起定级</button>-->
+					<button type="button" class="btn btn-success pull-left tree_box_sbt" id="btn-expand-this">展开某项</button>
+					<!--<button type="button" class="btn btn-success pull-left tree_box_sbt" id="btn-collapse-this">收起某项</button>-->
+				</div>
+				<div class="form-group clearfix">
+					<button type="button" class="btn btn-primary pull-left tree_box_sbt" id="btn-select-node">选中节点</button>
+					<button type="button" class="btn btn-primary pull-left tree_box_sbt" id="btn-unselect-node">取消选中</button>
+					<button type="button" class="btn btn-primary pull-left tree_box_sbt" id="btn-toggle-node">Toggle节点</button>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

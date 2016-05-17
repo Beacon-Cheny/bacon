@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* common */
+.c_common .tree_box{width:400px;margin-top:100px}
+.c_common .tree_box_serch{width:280px;}
+.c_common .tree_box_sbt{margin-left:5px;}		
+
+/* index.html */
+.c_index{position:fixed; width:418px; top:40%; left:50%; margin-top: -150px; margin-left: -200px;}
+.c_index .logo{margin-bottom: 15px;}
+.c_index h1{text-align:center; margin:30px 0;}
+.c_index .error_msg{text-indent: 3px;color: #a94442;}
+.c_index .glyphicon{top:0;}
+.c_index .input-lg{border-radius: 2px !important;}
+
+/* productList.html */
+.c_prolist .container{}
+
+/* productAdd.html */
+.c_proadd .container{}

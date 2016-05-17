@@ -1,0 +1,11 @@
+
+
+
+	1）首页						index.html				index.js
+
+	2）商品管理页（列表页）		productList.html		productList.js
+		2_1）添加商品页				productAdd.html			productAdd.js
+		
+	3）部件管理页（列表页）		partList.html		partList.js
+		3_1）添加/编辑归类			partAdd.html			partAdd.js
+	

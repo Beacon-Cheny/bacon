@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+ 
+/* reset.css */
+body,p,h1,h2,h3,h4,h5,h6,form,ol,ul,input,dl,dd,select,textarea,td,th{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+ul,ol{list-style:none;}
+img{border:none; vertical-align:top; display:inline-block;}
+select,input{vertical-align:middle;}
+select{font-size:14px;}
+textarea{resize:none;overflow:auto;}
+input[type="text"],input[type="password"],input[type="submit"],textarea{outline-style:none;-webkit-appearance:none;}
+body,input,textarea{font:14px "Microsoft YaHei","\u5FAE\u8F6F\u96C5\u9ED1","SimSun","\u5B8B\u4F53","Arial";color:#333;background-color:#f9f9f9;}
+a{text-decoration:none; outline: none;cursor:pointer;}
+a:link{color:#333; outline: none;}
+a:visited{color:#666;}
+a:hover,a:active,a:focus{color:#00ae55;}
+label{ cursor: pointer;}
+
+     
+/* baes.css */
+.fl{ float:left;}
+.fr{ float:right;}
+/* .clearfix:after{ content:""; display:block; clear:both;} */
+.psre{position:relative;}
+.psab{position:absolute;}
+.psfx{position:fixed;}
+.escp{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}	/* 强制文本不换行,且超出以···代替 */
